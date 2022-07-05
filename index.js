@@ -22,7 +22,7 @@ var dBLitoSolu = [[["fl1","40.59405940594059"],["fl2","64.71615720524018"],["fl3
 // Write Javascript code!
 const appDiv = document.getElementById('app','example4');
 //const appP = document.getElementById('example4');
-const dbb = 'https://github.com/CBroemse/JSdbSTREAMall/files/7272490/outThere01Com.txt';
+const dbb = 'https://github.com/CBroemse/JSdbIframe/issues/2#issue-1294884771';
 const dbb2 =  document.getElementById('dbb');
 const dataStr0 = daObJ0.flist2;
 const dataStr1 = daObJ0.flist3;
@@ -39,7 +39,7 @@ const filD = dato(dataStr0);
 appDiv.innerHTML = '<h1>JS Star1ter</h1><body>'
      + daObJ0.flist1 +'<br>'+
      dataStr0+'<br>'+dataStr1+'<br>'+dataStr2+'<br>'+dataStr3+'<br>'+dataStr4+'<br>'+
-     '<br>'+filD+'<br>'+
+     '<br>'+
      '<script>'+
      '</script>'+
      '</body>';
