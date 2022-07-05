@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/handsontable@10.0/dist/handsontable.full.min.js"></script>
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@10.0/dist/handsontable.full.min.css" /> 
 <script src="file://index.js">
-//<script src="file://popo.js"></script>
+<script src="file://popo.js"></script>
 	
 	</script>
 <script>
@@ -15,18 +15,18 @@
 <div id="app"></div>
 <div id="example4"></div>
 <script>
-   const container = document.querySelector('#example4');
+ const container = document.querySelector('#example4');  
 const searchField = document.querySelector('#search_field4');
 const resultCount = document.querySelector('#resultCount');
 
 let searchResultCount = 0;
 
 const data = [
-  ['Tesla', 2017, 'black', 'black',123],
-  ['Nissan', 2018, 'blue', 'blue'],
-  ['Chrysler', 2019, 'yellow', 'black'],
-  ['Pogo Volvo', 2020, 'white', 'gray']
-  ];
+     ['Tesla', 2017, 'black', 'black',123],
+     ['Nissan', 2018, 'blue', 'blue'],
+     ['Chrysler', 2019, 'yellow', 'black'],
+     ['Pogo Volvo', 2020, 'white', 'gray']
+     ];
 
 // define your custom callback function
 function searchResultCounter(instance, row, col, value, result) {
