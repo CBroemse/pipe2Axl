@@ -20,7 +20,8 @@ const daObJ0 = new Object(obJ0);
 var dBLitoSolu = [[["fl1","40.59405940594059"],["fl2","64.71615720524018"],["fl3","29.616724738675956"],["fl4","29.12280701754386"],["fl5","39.603960396039604"],["fl6","22.60536398467433"]]];
 
 // Write Javascript code!
-const appDiv = document.getElementById('app');
+const appDiv = document.getElementById('app','example4');
+//const appP = document.getElementById('example4');
 const dbb = 'https://github.com/CBroemse/JSdbSTREAMall/files/7272490/outThere01Com.txt';
 const dbb2 =  document.getElementById('dbb');
 const dataStr0 = daObJ0.flist2;
@@ -28,14 +29,17 @@ const dataStr1 = daObJ0.flist3;
 const dataStr2 = daObJ0.flist4;
 const dataStr3 = daObJ0.flist5;
 const dataStr4 = daObJ0.flist6;
-
-
+function dato(fodata){
+     var gh = fodata;
+     return gh;
+ };
+const filD = dato(dataStr0);
 //const mak0 = (""+dataStr0+"").split(",");
 
 appDiv.innerHTML = '<h1>JS Star1ter</h1><body>'
-     + daObJ0.flist1 +'<br>'+data+
+     + daObJ0.flist1 +'<br>'+
      dataStr0+'<br>'+dataStr1+'<br>'+dataStr2+'<br>'+dataStr3+'<br>'+dataStr4+'<br>'+
-     '<br>'+
+     '<br>'+filD+'<br>'+
      '<script>'+
      '</script>'+
      '</body>';
